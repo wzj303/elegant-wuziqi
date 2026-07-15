@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; cd \"d:\\\\优雅五子棋\"; npx tsc --noEmit 2>&1)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; cd \"d:\\\\优雅五子棋\"; npx vite build 2>&1)"
+    ]
+  }
+}

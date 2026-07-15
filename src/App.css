@@ -1,0 +1,28 @@
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #f5f1ea;
+  color: #3a3028;
+  font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", -apple-system, sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 14px 10px 40px;
+}
+
+button {
+  font-family: inherit;
+  outline: none;
+}
+button:hover:not(:disabled) {
+  filter: brightness(0.94);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  transform: translateY(-1px);
+}
+button:active:not(:disabled) {
+  transform: scale(0.97);
+}
